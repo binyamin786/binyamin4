@@ -350,7 +350,7 @@ def pilih_super():
 			for line in open(idlist,'r').readlines():
 				id.append(line.strip())
 		except IOError:
-			print '\x1b[1;96m[!] \x1b[1;91mFile Don't See'
+			print '\x1b[1;96m[!] \x1b[1;91mFile Dont See'
 			raw_input('\n\x1b[1;96m[ \x1b[1;97mBack \x1b[1;96m]')
 			super()
 	elif peak =="0":
